@@ -1,0 +1,129 @@
+.entire_container {
+    width: 100%;
+    height: 3000px;
+    display: flex;
+    justify-content: center;
+}
+
+.entire_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.process_content {
+    background: rgb(182, 114, 26);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.process_text {
+    width: 60%;
+    padding: 5% 0%;
+    font-family: 'Raleway';
+}
+
+.process_text h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.process_text p {
+    color: white;
+    margin: 20px 0px;
+    font-size: 15px;
+}
+
+.quality_content {
+    width: 60%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.quality_text {
+    width: 40%;
+    height: 100%;
+    font-family: 'Raleway';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quality_text h1 {
+    color: rgb(182, 114, 26);
+    font-size: 25px;
+}
+
+.quality_text p {
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+.quality_text li {
+    margin: 10px 0px;
+}
+
+.quality_image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality_image img {
+    width: 450px;
+    height: 400px;
+}
+
+.care_content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background: rgb(225, 11, 23);
+    color: white;
+    align-items: center;
+}
+
+.care_text {
+    width: 60%;
+    font-family: 'Raleway';
+}
+
+.care_text h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.care_text p {
+    margin: 20px 0px;
+}
+
+.advice_content {
+    width: 100%;
+    height: 300px;
+    background: rgb(182, 114, 26);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice_content h1 {
+    width: 60%;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+}
+
+.PQC_image {
+    width: 100%;
+    min-width: 100%;
+}

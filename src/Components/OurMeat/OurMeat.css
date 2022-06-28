@@ -1,0 +1,43 @@
+.meat_container {
+    width: 100%;
+    min-width: 100%;
+    height: 500px;
+    background: rgb(182, 114, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meat_content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.meat_text {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-right: 5%;
+}
+
+.meat_text h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.meat_text p {
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.meat_image img {
+    width: 500px;
+    height: 400px;
+}

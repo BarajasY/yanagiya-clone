@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Navbar, MainLogo, ShippingAdvice, OurMeat, CutsSection, MeatMarbling, Footer, BarnLogo, JapanMeat, ProcessQualityCare } from './Components/Index';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<> <Navbar /> <MainLogo /> <ShippingAdvice /> <OurMeat /> <CutsSection /> <MeatMarbling /> <Footer /> </>} />
+          <Route path="/nuestra-carne" element={<><Navbar /> <BarnLogo /> <JapanMeat /> <ProcessQualityCare /> <Footer /> </>} />
+          <Route path="/tienda" element={<> <Navbar /> <Footer /></>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
