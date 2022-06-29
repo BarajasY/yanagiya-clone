@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, MainLogo, ShippingAdvice, OurMeat, CutsSection, MeatMarbling, Footer, BarnLogo, JapanMeat, ProcessQualityCare } from './Components/Index';
+import { Navbar, MainLogo, ShippingAdvice, OurMeat, CutsSection, MeatMarbling, Footer, BarnLogo, JapanMeat, ProcessQualityCare, Store, NewYork, RibEye, Sirloin } from './Components/Index';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -10,7 +10,10 @@ function App() {
         <Routes>
           <Route path="/" element={<> <Navbar /> <MainLogo /> <ShippingAdvice /> <OurMeat /> <CutsSection /> <MeatMarbling /> <Footer /> </>} />
           <Route path="/nuestra-carne" element={<><Navbar /> <BarnLogo /> <JapanMeat /> <ProcessQualityCare /> <Footer /> </>} />
-          <Route path="/tienda" element={<> <Navbar /> <Footer /></>} />
+          <Route path="/tienda" element={<> <Navbar /> <Store /> <Footer /></>} />
+          <Route path="/newyork" element={<> <Navbar /> <NewYork /> <Footer /></>} />
+          <Route path="/ribeye" element={<> <Navbar /> <RibEye /> <Footer /></>} />
+          <Route path="/sirloin" element={<> <Navbar /> <Sirloin /> <Footer /></>} />
         </Routes>
       </BrowserRouter>
     </div>

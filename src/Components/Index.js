@@ -8,3 +8,7 @@ export { default as Footer } from './Footer/Footer';
 export { default as BarnLogo } from './BarnLogo/BarnLogo';
 export { default as JapanMeat } from './JapanMeat/JapanMeat';
 export { default as ProcessQualityCare } from './ProcessQualityCare/ProcessQualityCare';
+export { default as Store } from './Store/Store';
+export { default as NewYork } from './MeatType/NewYork';
+export { default as RibEye } from './MeatType/RibEye';
+export { default as Sirloin } from './MeatType/Sirloin';

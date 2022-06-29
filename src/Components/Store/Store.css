@@ -1,0 +1,36 @@
+.store_container {
+    width: 100%;
+    min-width: 100%;
+    height: 600px;
+}
+
+.store_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+}
+
+.store_header {
+    color: rgb(182, 114, 26);
+    margin-top: 80px;
+}
+
+.items_container {
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.description h1 {
+    font-size: 16px;
+    color: rgb(182, 114, 26);
+}
+
+.description p {
+    font-size: 15px;
+    margin-top: 10px;
+}
