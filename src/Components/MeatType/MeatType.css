@@ -18,13 +18,10 @@
 }
 
 .images_display {
+    display: flex;
+    justify-content: center;
     width: 50%;
-    margin: 30px;
-}
-
-.images_display img {
-    width: 500px;
-    height: 350px;
+    margin: 30px 0px;
 }
 
 .type_info {
@@ -53,7 +50,7 @@
 
 .selection {
     margin-left: 50px;
-    width: 400px;
+    width: fit-content;
     border: none;
     background: rgb(236, 236, 236);
     padding: 5px;
@@ -61,17 +58,19 @@
 
 .body_description {
     margin-top: 50px;
-    height: 500px;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
     border: 1px solid gray;
-    background: rgb(236, 236, 236)
+    background: rgb(236, 236, 236);
+    transition: .5s;
 }
 
 .buttons button {
+    color: black;
     border: none;
-    padding: 5px 10px;
+    padding: 0px 10px;
     font-size: 20px;
 }
 
@@ -79,6 +78,10 @@
     background: white;
     padding: 20px;
     font-family: 'Raleway';
+}
+
+.description {
+    height: fit-content;
 }
 
 .description p,
@@ -103,10 +106,13 @@ li {
 }
 
 .recommendation_container {
+    width: 100%;
     margin-top: 30px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     font-family: 'Raleway';
     color: rgb(182, 114, 26);
 }
@@ -114,4 +120,40 @@ li {
 .recommended_content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 992px) {
+    .type_content {
+        width: 100%;
+    }
+
+    .type_header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .images_display {
+        width: 100%;
+    }
+
+    .type_info {
+        width: 100%;
+    }
+
+    .images_display Zoom {
+        width: 400px;
+        height: 300px;
+    }
+
+    .recommendation_container h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
 }

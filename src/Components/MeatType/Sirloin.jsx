@@ -23,7 +23,7 @@ const Sirloin = () => {
             <div className="type_content">
                 <div className="type_header">
                     <div className="images_display">
-                        <Zoom img={Sirloin_meat} zoomScale={2} width={500} height={350} />
+                        <Zoom img={Sirloin_meat} zoomScale={2} width={350} height={300} />
                     </div>
                     <div className="type_info">
                         <div className="header_title">

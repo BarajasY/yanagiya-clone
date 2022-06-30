@@ -1,7 +1,7 @@
 .cuts_container {
     width: 100%;
     min-width: 100%;
-    height: 500px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .cuts_content a {
@@ -22,4 +23,26 @@
 
 .cut:hover {
     opacity: .5;
+}
+
+.cut p {
+    color: rgb(182, 114, 26);
+}
+
+@media only screen and (max-width: 992px) {
+    .cut img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cuts_container {
+        height: 800px;
+    }
+
+    .cut img {
+        width: 200px;
+        height: 200px;
+    }
 }

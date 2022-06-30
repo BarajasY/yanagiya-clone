@@ -4,6 +4,7 @@
     height: 100px;
     background: rgb(182, 114, 26);
     display: flex;
+    justify-content: center;
     align-items: center;
     transition: 1s;
     box-shadow: 1px 1px 10px black;
@@ -47,4 +48,28 @@ a {
 
 a:hover {
     opacity: .5;
+}
+
+.dropdown_menu {
+    color: white;
+    font-size: 23px;
+}
+
+.dropdown_links {
+    border-top: 5px solid white;
+    position: absolute;
+    height: fit-content;
+    width: 90%;
+    background: rgb(182, 114, 26);
+    display: flex;
+    flex-direction: column;
+    top: 11%;
+    transition: .5s;
+    padding: 10px;
+    z-index: 30;
+}
+
+.dropdown_links a {
+    padding: 15px 0px;
+    border-bottom: 1px solid black;
 }

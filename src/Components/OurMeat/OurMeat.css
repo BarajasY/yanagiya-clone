@@ -37,7 +37,49 @@
     text-align: center;
 }
 
+.meat_image {
+    display: flex;
+    justify-content: center;
+}
+
 .meat_image img {
     width: 500px;
     height: 400px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 20px;
+    background: rgb(182, 114, 26);
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .meat_image img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .meat_container {
+        height: 800px;
+    }
+
+    .meat_content {
+        flex-direction: column;
+    }
+
+    .meat_text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .meat_image img {
+        width: 300px;
+        height: 250px;
+    }
 }
