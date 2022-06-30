@@ -1,0 +1,81 @@
+.recipe01_container {
+    width: 100%;
+    min-width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe01_content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe01_header {
+    font-family: 'Raleway';
+    margin-top: 60px;
+}
+
+.recipe01_text h1 {
+    color: #B15D00;
+}
+
+.recipe01_text p {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.recipe01_video {
+    background-image: url(../../assets/Receta01.jpeg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video_text {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.video_text p {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.instruction_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.instruction_text {
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_part {
+    display: flex;
+    flex-direction: row;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+
+.first_half {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_half h1 {
+    color: #B15D00;
+    font-size: 30px;
+}

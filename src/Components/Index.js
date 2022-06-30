@@ -12,3 +12,5 @@ export { default as Store } from './Store/Store';
 export { default as NewYork } from './MeatType/NewYork';
 export { default as RibEye } from './MeatType/RibEye';
 export { default as Sirloin } from './MeatType/Sirloin';
+export { default as RecipesIndex } from './Recipes/RecipesIndex';
+export { default as Recipe01 } from './Recipes/Recipe01';

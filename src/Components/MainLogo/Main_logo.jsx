@@ -1,7 +1,6 @@
 import React from 'react';
 import './Main_logo.css';
 import yanagiya_styled_logo from '../../assets/yanagiya_styled_logo.png';
-import main_image_yanagiya from '../../assets/main_image_yanagiya.jpg';
 
 const Main_logo = () => {
     return (

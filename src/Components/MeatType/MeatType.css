@@ -58,3 +58,60 @@
     background: rgb(236, 236, 236);
     padding: 5px;
 }
+
+.body_description {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    background: rgb(236, 236, 236)
+}
+
+.buttons button {
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.body_text {
+    background: white;
+    padding: 20px;
+    font-family: 'Raleway';
+}
+
+.description p,
+li {
+    font-size: 20px;
+}
+
+.description p {
+    margin: 15px 0px;
+}
+
+.additional_info {
+    height: 400px;
+}
+
+.additional_info h1 {
+    color: rgb(182, 114, 26);
+}
+
+.Table {
+    height: 300px;
+}
+
+.recommendation_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Raleway';
+    color: rgb(182, 114, 26);
+}
+
+.recommended_content {
+    display: flex;
+    flex-direction: row;
+}
