@@ -83,7 +83,7 @@
 
 .first_half h1 {
     color: #B15D00;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .first_half p {
@@ -117,6 +117,19 @@
 
 .second_part h1 {
     color: #B15D00;
+    font-size: 20px;
+}
+
+.instructions_images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.instructions_images img {
+    margin: 10px 5px;
+    width: 300px;
+    height: 150px;
 }
 
 @media only screen and (max-width: 991px) {

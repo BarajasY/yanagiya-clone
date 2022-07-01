@@ -1,6 +1,9 @@
 import React from 'react';
 import './Recipe01.css';
 import ReactPlayer from 'react-player';
+import img_01 from '../../assets/img_01.jpg';
+import img_02 from '../../assets/img_02.jpg';
+import img_03 from '../../assets/img_02.jpg';
 
 const Recipe01 = () => {
 
@@ -92,7 +95,9 @@ const Recipe01 = () => {
                             </div>
                         </div>
                         <div className="instructions_images">
-
+                            <img src={img_01} alt="" />
+                            <img src={img_02} alt="" />
+                            <img src={img_03} alt="" />
                         </div>
                     </div>
                 </div>

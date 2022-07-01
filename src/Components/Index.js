@@ -14,3 +14,4 @@ export { default as RibEye } from './MeatType/RibEye';
 export { default as Sirloin } from './MeatType/Sirloin';
 export { default as RecipesIndex } from './Recipes/RecipesIndex';
 export { default as Recipe01 } from './Recipes/Recipe01';
+export { default as PersonalBanner } from './PersonalBanner/PersonalBanner';
