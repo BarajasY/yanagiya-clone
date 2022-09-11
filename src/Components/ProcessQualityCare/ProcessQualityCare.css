@@ -40,10 +40,11 @@
 }
 
 .quality_content {
-    width: 60%;
+    width: 95%;
     height: 900px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .quality_text {
@@ -61,6 +62,7 @@
 }
 
 .quality_text p {
+    text-align: justify;
     margin: 15px 0px;
     font-size: 15px;
 }
@@ -130,6 +132,7 @@
 
 @media only screen and (max-width: 992px) {
     .quality_content {
+        width: 95%;
         height: fit-content;
         flex-direction: column;
         padding: 30px 0px;
